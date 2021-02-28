@@ -20,7 +20,7 @@ Below is my system specific installation of chapel using only host communication
 - set the chapel home directory ```export CHPL_HOME=~/chapel-1.23.0```
 - set chapel path dir ```export PATH="$PATH":"$CHPL_HOME/bin/$CHPL_BIN_SUBDIR" ```
 - set man path for chapel ```export export MANPATH="$MANPATH":"$CHPL_HOME"/man```
-- set host platform (host is the principle system) ```export CHPL_HOST_PLATFORM=`$CHPL_HOME/util/chplenv/chpl_platform.py````
+- set host platform (host is the principle system) ```export CHPL_HOST_PLATFORM=`$CHPL_HOME/util/chplenv/chpl_platform.py```
 - set system arch ```export CHPL_HOST_ARCH=x86_64```
 - set the communication layer as GASNET ```export CHPL_COMM=gasnet```
 
